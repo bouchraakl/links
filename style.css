@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+*{
+	background-color: #fcd5ce;
+}
+
+body{
+	min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.resume{
+	margin-left: auto;
+	padding: 5px;
+}
+
+.resume:hover{
+   font-size: 20px;
+   text-decoration: underline;
+}
+
+img{
+	border-radius: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+	text-align: center;
+	font-family: "Great Vibes" ;
+	font-size: 40px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.container{
+	display: grid;
+	grid-row-gap: 7px;
+	justify-content: center;
+
+}
+
+.social{
+	padding: 0;
+	margin-left: 35px;
+	font-size: 20px;
+}
+ 
+button {
+ border-radius: 20px ;
+ text-align: center;
+ margin: 10px;
+ padding: 15px;
+ border-color: #bcb8b1;
+ cursor: pointer;
+ -webkit-transition-duration :0.4s;
+ transition-duration: 0.4s;
+ box-shadow: 0 5px 15px 0 #eaf4f4, 0 5px 15px 0 #333333;
+}
+
+button:hover{
+	transform:scale(1.3,1.3);
+  -webkit-transform:scale(1.3,1.3);
+  -moz-transform:scale(1.3,1.3);
+}
+hr{
+	margin: 20px;
+}
+footer{
+	text-align: center;
+	margin-top: auto;
+}
